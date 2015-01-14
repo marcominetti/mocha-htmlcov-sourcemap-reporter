@@ -1,0 +1,44 @@
+{
+  "name": "mocha-htmlcov-sourcemap-reporter",
+  "description": "HTML coverage reporter for Mocha with SourceMap support",
+  "version": "0.0.1",
+  "author": {
+    "name": "Marco Minetti",
+    "email": "marco.minetti@novetica.org"
+  },
+  "keywords": [
+    "mocha",
+    "reporter",
+    "lcov",
+    "coverage",
+    "sourcemap"
+  ],
+  "licenses": [
+    {
+      "type": "2-clause BSD",
+      "url": "https://raw.github.com/StevenLooman/mco/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "source-map": "*",
+    "jade": "*"
+  },
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcominetti/mocha-htmlcov-sourcemap-reporter.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/marcominetti/mocha-htmlcov-sourcemap-reporter/issues"
+  },
+  "homepage": "https://github.com/marcominetti/mocha-htmlcov-sourcemap-reporter"
+}
